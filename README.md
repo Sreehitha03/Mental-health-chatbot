@@ -2,7 +2,7 @@
 This is a web-based mental health chatbot that leverages a fine-tuned Large Language Model (LLM) to provide supportive conversations. The model is trained/fine-tuned in a Colab environment, stored on Google Drive, and served via a backend running on Colab (exposed using ngrok), while the frontend runs locally or on a hosting platform.
 
 ## 🔧 Features
-Fine-tuned gemma-2b-4bit model using Unsloth.
+Fine-tuned gemma-2b-4bit model using dataset.
 
 Flask-based backend hosted on Google Colab
 
@@ -34,7 +34,7 @@ Replace this in the fetch call.
 
 ### 3. 🌐 Frontend
 Technologies Used
-HTML, CSS, JS, React 
+HTML, CSS, JS, React, Node 
 
 ## 🛠️ Notes
 If using Colab, ensure you re-authenticate pyngrok every time the runtime resets.
